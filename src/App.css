@@ -1,7 +1,8 @@
-import JSXVariables from "./components/JSXVariables";
-
-function App() {
-  return <JSXVariables />;
+#root {
+  
 }
 
-export default App;
+.nav-col {
+  background-color: orange;
+}
+
