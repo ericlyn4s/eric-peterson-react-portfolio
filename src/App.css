@@ -8,7 +8,7 @@
 header {
   background-color: lightblue;
   height: 90vh;
-  width: 200px;
+  width: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@ header {
 }
 
 #headshot {
-  width: 200px;
+  width: 220px;
 
 }
 
@@ -29,7 +29,7 @@ header a {
   font-size: 22px;
   letter-spacing: 2px;
   color: white;
-  -webkit-text-stroke: 1px rgb(5, 51, 79);
+ 
 }
 
 header a:hover {
@@ -39,7 +39,7 @@ header a:hover {
 footer {
   display: flex;
   justify-content: center;
-  width: 200px;
+  width: 220px;
   height: 10vh;
   background-color: lightblue;
   border-right: solid rgb(5, 51, 79);

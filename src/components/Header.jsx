@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import headshot from '../assets/eric_headshot.jpg';
 
 
@@ -6,10 +7,10 @@ function Header() {
   <header>
     <img id='headshot' src={headshot}/>
     <nav>
-      <a className="nav-link" href="#">ABOUT ME</a>
-      <a className="nav-link" href="#">PORTFOLIO</a>
-      <a className="nav-link" href="#">CONTACT</a>
-      <a className="nav-link" href="#">RESUME</a>
+      <Link className="nav-link" href="/">ABOUT ME</Link>
+      <Link className="nav-link" href="/portfolio">PORTFOLIO</Link>
+      <Link className="nav-link" href="/contact">CONTACT</Link>
+      <Link className="nav-link" href="/resume">RESUME</Link>
     </nav>
   </header>
   );
