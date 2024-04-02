@@ -7,11 +7,16 @@ import "./App.css";
 function App() {
   return (
   <>
-    <Header />
-    <main>
-      <Outlet />
-    </main>
-    <Footer />
+    <div id="site-body">
+      <aside>
+        <Header />
+        <Footer />
+      </aside>
+      <main>
+        <h1 id="eric-name">Eric Peterson</h1>
+        <div id="outlet"><Outlet /></div>
+      </main>
+    </div>
   </>
   )
 }

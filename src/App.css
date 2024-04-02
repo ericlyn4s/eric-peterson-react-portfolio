@@ -3,7 +3,9 @@
   font-family: Tahoma;
 }
 
-
+#headshot {
+  width: 220px;
+}
 
 header {
   background-color: lightblue;
@@ -15,9 +17,30 @@ header {
   border-right: solid rgb(5, 51, 79);
 }
 
-#headshot {
-  width: 220px;
+#site-body {
+  display: flex;
+  background: rgb(2, 30, 48);
+}
 
+#eric-name {
+  font-size: 65px;
+  font-weight: bold;
+  color: lightblue;
+  -webkit-text-stroke: 3px rgb(5, 51, 79);
+  padding: 100px;
+}
+
+#site-body h2 {
+  margin-top: 30px;
+}
+
+#outlet {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+  border: solid rgb(5, 51, 79);
+  background-color: lightblue;
+  color: rgb(5, 51, 79);
 }
 
 header a {
@@ -35,6 +58,10 @@ header a {
 header a:hover {
   color: rgb(5, 51, 79);
 } 
+
+#gh-pic:hover, #li-pic:hover {
+  border: solid rgb(5, 51, 79);
+}
 
 footer {
   display: flex;
