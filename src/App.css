@@ -60,7 +60,7 @@ header a:hover {
 } 
 
 #gh-pic:hover, #li-pic:hover {
-  border: solid rgb(5, 51, 79);
+  border: 1px solid rgb(5, 51, 79);
 }
 
 footer {
