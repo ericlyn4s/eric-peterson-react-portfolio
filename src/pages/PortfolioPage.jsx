@@ -1,7 +1,18 @@
 function PortfolioPage() {
     return (
     <>
-      <h1>Hi!</h1>
+      <div id="portfolio-grid">
+        <div id="portfolio-columns">
+          <div className="portfolio-box"></div>
+          <div className="portfolio-box"></div>
+          <div className="portfolio-box"></div>
+        </div>
+        <div id="portfolio-columns">
+          <div className="portfolio-box"></div>
+          <div className="portfolio-box"></div>
+          <div className="portfolio-box"></div>
+        </div>
+      </div>
     </>
     )
   }

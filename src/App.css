@@ -27,14 +27,14 @@ header {
   font-weight: bold;
   color: lightblue;
   -webkit-text-stroke: 3px rgb(5, 51, 79);
-  padding: 100px;
+  padding: 50px 100px 50px 100px;
 }
 
 #site-body h2 {
   margin-top: 30px;
 }
 
-#outlet {
+#about-me {
   margin-left: 100px;
   margin-right: 100px;
   padding: 50px;
@@ -54,6 +54,34 @@ header a {
   color: white;
  
 }
+
+<!-- Portfolio formatting --->
+#portfolio-grid {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: solid orange;
+}
+
+#portfolio-columns {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+  border: solid orange;
+  flex-wrap: wrap;
+}
+
+.portfolio-box {
+  width: 400px;
+  max-height: calc(50% - 30px);
+  border: solid green;
+  margin: 15px;
+}
+
+
+
+
 
 header a:hover {
   color: rgb(5, 51, 79);

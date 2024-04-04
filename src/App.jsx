@@ -14,7 +14,7 @@ function App() {
       </aside>
       <main>
         <h1 id="eric-name">Eric Peterson</h1>
-        <div id="outlet"><Outlet /></div>
+        <div><Outlet /></div>
       </main>
     </div>
   </>
