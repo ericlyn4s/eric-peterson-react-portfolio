@@ -3,8 +3,17 @@
   font-family: Tahoma;
 }
 
+a {
+  text-decoration: none;
+}
+
 #headshot {
   width: 220px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
 }
 
 header {
@@ -56,28 +65,65 @@ header a {
 }
 
 <!-- Portfolio formatting --->
-#portfolio-grid {
-  height: 100vh;
-  width: 100%;
+/* Creating a grid format for the main area - 5 columns by 6 rows */
+#portfolio-body {
   display: flex;
-  flex-direction: column;
-  border: solid orange;
-}
-
-#portfolio-columns {
-  display: flex;
-  flex-direction: row;
-  margin: 10px 0px;
-  border: solid orange;
   flex-wrap: wrap;
+  flex-direction: row-start;
 }
 
-.portfolio-box {
-  width: 400px;
-  max-height: calc(50% - 30px);
-  border: solid green;
-  margin: 15px;
+/* Setting up each project 'box' */
+.projects {
+  display: flex;
+  margin: 50px;
+  border: 5px solid lightblue;
+  padding: -10px;
+  height: 200px;
+  width: 40%;
+  flex-basis: 0 0 10x;
 }
+
+.projects:hover {
+  opacity: 0.5;
+}
+
+/* Ensuring each project's title is offset from the bottom of the box */
+.projects h3 {
+  text-align: left;
+  width: 50%;
+  height: 20%;
+  padding: 4px;  
+  margin-top: auto;
+  background-color: rgb(2, 30, 48);
+  color: white;
+  text-decoration: none;
+}
+
+/* Assigning background images of each project */
+#tech-blog {
+  background: url("../src/assets/tech-blog.png");
+}
+
+#tale-spin {
+  background: url("../src/assets/talespin.png");
+}
+
+#weather-forecaster {
+  background: url("../src/assets/weather-forecaster.png");
+}
+
+#workday-scheduler {
+  background: url("../src/assets/workday-scheduler.png");
+}
+
+#coding-quiz {
+  background: url("../src/assets/coding-quiz.png");
+}
+
+#password-generator {
+  background: url("../src/assets/password-generator.png");
+}
+
 
 
 
@@ -95,7 +141,7 @@ footer {
   display: flex;
   justify-content: center;
   width: 220px;
-  height: 10vh;
+  height: 10%;
   background-color: lightblue;
   border-right: solid rgb(5, 51, 79);
 }
