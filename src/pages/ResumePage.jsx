@@ -1,9 +1,13 @@
+import portfolioDoc from '/src/assets/EricPetersonResume2023.pdf';
+
 function ResumePage() {
     return (
       <div id="resume-section">
         <h1>Resume</h1>
         <br></br>
-        <h3>Download my resume</h3> 
+        <a href={ portfolioDoc } download>
+          <h3>Download my resume</h3> 
+        </a>
         <h2>Front-end Proficiencies</h2>
           <ul>
             <li>HTML</li>
