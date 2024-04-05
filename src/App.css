@@ -18,7 +18,7 @@ main {
 
 header {
   background-color: lightblue;
-  height: 90vh;
+  height: 610px;
   width: 220px;
   display: flex;
   flex-direction: column;
@@ -43,13 +43,11 @@ header {
   margin-top: 30px;
 }
 
-#about-me {
+#about-me, #resume-section {
   margin-left: 100px;
   margin-right: 100px;
   padding: 50px;
-  border: solid rgb(5, 51, 79);
-  background-color: lightblue;
-  color: rgb(5, 51, 79);
+  color: white;
 }
 
 header a {
@@ -75,11 +73,11 @@ header a {
 /* Setting up each project 'box' */
 .projects {
   display: flex;
-  margin: 50px;
+  margin: 50px 50px 50px 150px;
   border: 5px solid lightblue;
   padding: -10px;
-  height: 200px;
-  width: 40%;
+  height: 250px;
+  width: 900px;;
   flex-basis: 0 0 10x;
 }
 
@@ -131,11 +129,11 @@ header a {
 }
 
 form.container {
-  margin: 100px;
-  width: 50%;
+  margin: 20px 50px 50px 120px;
+  width: 700px;
   padding: 30px;
-  background-color: lightblue;
   display: block;
+  color: white;
 }
 
 .contact-field {
@@ -145,8 +143,8 @@ form.container {
 }
 
 .contact-label {
-  color: rgb(5, 51, 79);
   font-weight: bold;
+  font-size: 20px;
 }
 
 #name, #email {
@@ -158,6 +156,7 @@ form.container {
 #message {
   width: 500px;
   height: 100px;
+  margin-top: 10px;
 }
 
 #form-button {
@@ -167,7 +166,10 @@ form.container {
   color: white;
   font-size: 15px;
   font-weight: bold;
+  margin-top: 10px;
 }
+
+<!--Resume Formatting--->
 
 <!--Footer Formatting--->
 header a:hover {
@@ -182,7 +184,7 @@ footer {
   display: flex;
   justify-content: center;
   width: 220px;
-  height: 10%;
+  height: 1500px;
   background-color: lightblue;
   border-right: solid rgb(5, 51, 79);
 }

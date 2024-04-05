@@ -15,7 +15,7 @@ function ContactPage() {
     <>
        {/* Updated heading */}
       <form className="container" onSubmit={handleSubmit}>
-      <h1>Contact</h1>
+      <h1>Contact</h1><br></br>
         <div className="contact-field">
           <label htmlFor="name" className="contact-label">Name:</label> 
           <input 
