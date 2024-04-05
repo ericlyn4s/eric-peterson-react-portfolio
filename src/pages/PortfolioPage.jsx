@@ -3,9 +3,9 @@ function PortfolioPage() {
     <>
       <div style={{display: 'flex', flexDirection: 'row'}}>
 
-<a id="tech-blog" className="projects" href="https://aqueous-springs-68236-b5e4d5df42c9.herokuapp.com/">
-    <h3>Tech Blog</h3>
-</a>
+        <a id="tech-blog" className="projects" href="https://aqueous-springs-68236-b5e4d5df42c9.herokuapp.com/">
+            <h3>Tech Blog</h3>
+        </a>
 
 <a id="tale-spin" className="projects" href="https://afternoon-taiga-74070-303988fd2de4.herokuapp.com/">
     <h3>Tale Spin</h3>   

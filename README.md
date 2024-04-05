@@ -20,6 +20,9 @@ https://github.com/ericlyn4s/eric-peterson-react-portfolio
 
 ## Usage
 
+<image src="src/assets/example-screenshot.png" width="650" alt="Image of a my portfolio page"/> \
+*Screenshot of my portfolio page*
+
 My portfolio is hopefully simple to use and straightforward. It's divided into four sections:
 
 1. About Me: this is a small description of who I am, where I'm coming from, and what my future career goals are.
