@@ -1,5 +1,6 @@
 import portfolioDoc from '/src/assets/EricPetersonResume2023.pdf';
 
+// Creating a resume page, with a list of my skills
 function ResumePage() {
     return (
       <div id="resume-section">

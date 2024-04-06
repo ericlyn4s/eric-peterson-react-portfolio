@@ -10,7 +10,7 @@ function ContactPage() {
     // Here, you'd typically send the form data to a server (e.g., using fetch)
     console.log('Form Data:', { name, email, message });
   };
-
+// Creating a submission form, with three fields
   return (
     <>
        {/* Updated heading */}

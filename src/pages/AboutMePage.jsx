@@ -1,5 +1,6 @@
 function AboutMe() {
     return (
+      // Creating a blurb about myself
     <>
       <div id="about-me">
         <h1>Hello!</h1>
