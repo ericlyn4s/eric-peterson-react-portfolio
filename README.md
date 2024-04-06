@@ -30,6 +30,8 @@ My portfolio is hopefully simple to use and straightforward. It's divided into f
 3. Contact: this form allows the user to send me a message. Note that this message will not be sent without a valid Email address. Empty messages will also throw an error.
 4. Resume: this shows some of my skills thus far. You can click the link 'Download my portfolio here' to get a PDF version of my resume.
 
+These can be accessed on the righthand panel. Additionally, I've linked my Github and LinkedIn profiles here.
+
 ## Credits
 
 I had a tutor session with Charles Puente-Matos on 4/1/2024.

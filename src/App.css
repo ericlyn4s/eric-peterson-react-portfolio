@@ -3,6 +3,7 @@
   font-family: Tahoma;
 }
 
+<!-- Ensuring no links are underlined --->
 a {
   text-decoration: none;
 }
@@ -73,28 +74,56 @@ header a {
 /* Setting up each project 'box' */
 .projects {
   display: flex;
-  margin: 50px 50px 50px 150px;
+  margin: 75px 50px 0px 50px;
   border: 5px solid lightblue;
   padding: -10px;
   height: 250px;
-  width: 900px;;
+  width: 700px;
   flex-basis: 0 0 10x;
 }
 
+.portfolio-row {
+  padding-left: 100px;
+}
+
 .projects:hover {
-  opacity: 0.5;
+  opacity: 0.9;
+}
+
+.projects:hover .popup-link {
+  display: inline-block;
+  opacity: 1.0;
+  height: 10%;
+  color: white;
+  right: 0;
+  bottom: 30px;
+  transform: translateX(100%);
+}
+
+
+.popup-link {
+  display: none;
+  left: 0;
+}
+
+.gh-icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(2, 30, 48);
 }
 
 /* Ensuring each project's title is offset from the bottom of the box */
 .projects h3 {
   text-align: left;
+  display: block;
   width: 50%;
-  height: 20%;
+  height: 10%;
   padding: 4px;  
   margin-top: auto;
   background-color: rgb(2, 30, 48);
   color: white;
   text-decoration: none;
+  position: relative; 
 }
 
 /* Assigning background images of each project */
@@ -184,7 +213,7 @@ footer {
   display: flex;
   justify-content: center;
   width: 220px;
-  height: 1500px;
+  height: 750px;
   background-color: lightblue;
   border-right: solid rgb(5, 51, 79);
 }
