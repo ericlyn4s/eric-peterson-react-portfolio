@@ -140,8 +140,8 @@ header a {
   background: url("../src/assets/weather-forecaster.png");
 }
 
-#workday-scheduler {
-  background: url("../src/assets/workday-scheduler.png");
+#peer-prep {
+  background: url("../src/assets/peer-prep.png");
 }
 
 #coding-quiz {
@@ -198,8 +198,6 @@ form.container {
   font-weight: bold;
   margin-top: 10px;
 }
-
-<!--Resume Formatting--->
 
 <!--Footer Formatting--->
 header a:hover {

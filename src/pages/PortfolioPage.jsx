@@ -30,19 +30,19 @@ function PortfolioPage() {
 
     <div className="portfolio-row" style={{display: 'flex', flexDirection: 'row'}}>
 
-        <a id="weather-forecaster" className="projects" href="https://ericlyn4s.github.io/weather-forecaster/">
-            <h3>Weather Forecaster</h3>
+        <a id="peer-prep" className="projects" href="https://peer-prep.onrender.com/">
+            <h3>Peer Prep</h3>   
             <div className="popup-link" >
-                <a href="https://github.com/ericlyn4s/weather-forecaster">
+                <a href="https://github.com/dymoy/peer-prep">
                     <img className="gh-icon" src={githubMark}/>
                 </a>
             </div>
         </a>
 
-        <a id="workday-scheduler" className="projects" href="https://ericlyn4s.github.io/daily-workday-calendar/">
-            <h3>Workday Scheduler</h3>   
+        <a id="weather-forecaster" className="projects" href="https://ericlyn4s.github.io/weather-forecaster/">
+            <h3>Weather Forecaster</h3>
             <div className="popup-link" >
-                <a href="https://github.com/ericlyn4s/daily-workday-calendar">
+                <a href="https://github.com/ericlyn4s/weather-forecaster">
                     <img className="gh-icon" src={githubMark}/>
                 </a>
             </div>
@@ -69,6 +69,7 @@ function PortfolioPage() {
                 </a>
             </div>
         </a>
+
 
     </div>
 
