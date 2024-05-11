@@ -13,7 +13,8 @@ I wanted to create a more sophisticated portfolio that showcases my fullstack pr
 
 ## Installation
 
-My portfolio is being hosted on Netlify here:
+My portfolio is being hosted on Netlify here: 
+https://charming-sable-d1f3fd.netlify.app/portfolio
 
 The GitHub repository can be accessed here:
 https://github.com/ericlyn4s/eric-peterson-react-portfolio
