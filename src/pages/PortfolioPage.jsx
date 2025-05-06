@@ -8,7 +8,7 @@ function PortfolioPage() {
     <>
     <div className="portfolio-row" style={{display: 'flex', flexDirection: 'row'}}>
         
-        <a id="tech-blog" className="projects" href="https://aqueous-springs-68236-b5e4d5df42c9.herokuapp.com/">
+        <a id="tech-blog" className="projects" href="https://tech-blog-ep-272122b79d8e.herokuapp.com/">
             <h3>Tech Blog</h3>
             <div className="popup-link" >
                 <a href="https://github.com/ericlyn4s/tech-blog">
@@ -30,19 +30,20 @@ function PortfolioPage() {
 
     <div className="portfolio-row" style={{display: 'flex', flexDirection: 'row'}}>
 
-        <a id="peer-prep" className="projects" href="https://peer-prep.onrender.com/">
-            <h3>Peer Prep</h3>   
+        
+        <a id="weather-forecaster" className="projects" href="https://ericlyn4s.github.io/weather-forecaster/">
+            <h3>Weather Forecaster</h3>
             <div className="popup-link" >
-                <a href="https://github.com/dymoy/peer-prep">
+                <a href="https://github.com/ericlyn4s/weather-forecaster">
                     <img className="gh-icon" src={githubMark}/>
                 </a>
             </div>
         </a>
 
-        <a id="weather-forecaster" className="projects" href="https://ericlyn4s.github.io/weather-forecaster/">
-            <h3>Weather Forecaster</h3>
+        <a id="peer-prep" className="projects" href="https://peer-prep.onrender.com/">
+            <h3>Peer Prep</h3>   
             <div className="popup-link" >
-                <a href="https://github.com/ericlyn4s/weather-forecaster">
+                <a href="https://github.com/dymoy/peer-prep">
                     <img className="gh-icon" src={githubMark}/>
                 </a>
             </div>

@@ -11,11 +11,14 @@ function ContactPage() {
     console.log('Form Data:', { name, email, message });
   };
 // Creating a submission form, with three fields
+<h1>Check back later!</h1>
+
   return (
     <>
        {/* Updated heading */}
       <form className="container" onSubmit={handleSubmit}>
-      <h1>Contact</h1><br></br>
+      <h1>Please Check Back Later!</h1><br></br>
+      {/*
         <div className="contact-field">
           <label htmlFor="name" className="contact-label">Name:</label> 
           <input 
@@ -26,6 +29,8 @@ function ContactPage() {
             required 
           />
         </div>
+        */}
+        {/*
         <div className="contact-field">
           <label htmlFor="email" className="contact-label">Email:</label>
           <input 
@@ -34,9 +39,10 @@ function ContactPage() {
             value={email} 
             onChange={(e) => setEmail(e.target.value)}
             required 
-          />
+          /> 
         </div>
-        <div className="contact-field">
+        */}
+        {/* <div className="contact-field">
           <label htmlFor="message" className="contact-label">Message:</label>
           <textarea 
             id="message" 
@@ -44,12 +50,13 @@ function ContactPage() {
             onChange={(e) => setMessage(e.target.value)} 
             required 
           />
-        </div>
-        <button id="form-button" type="submit">Send Message</button>
+        </div> */}
+        {/* <button id="form-button" type="submit">Send Message</button> */}
       </form>
     </>
   );
 }
 
-  
+
+
   export default ContactPage;
