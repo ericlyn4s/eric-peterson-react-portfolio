@@ -13,8 +13,10 @@ I wanted to create a more sophisticated portfolio that showcases my fullstack pr
 
 ## Installation
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/118be6fe-1060-45e1-8945-61df0be87e3a/deploy-status)](https://app.netlify.com/sites/eric-peterson-react-portfolio/deploys)
+
 My portfolio is being hosted on Netlify here: 
-https://charming-sable-d1f3fd.netlify.app/portfolio
+https://eric-peterson-react-portfolio.netlify.app/
 
 The GitHub repository can be accessed here:
 https://github.com/ericlyn4s/eric-peterson-react-portfolio
